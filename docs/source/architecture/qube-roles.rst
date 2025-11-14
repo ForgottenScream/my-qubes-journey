@@ -1,12 +1,13 @@
 Qube Roles
 ==========
 
-You probably read the last page and thought, "system qubes? what?" which is fair, if you haven't read anything else or had a good look at the diagram from the threat-model page it is confusing.
-Essentially different components of your computer are also isolated in various qubes.
+This page will explain the different types of qubes that will come in your system as well as their roles.
 
 System Qubes
 ============
 
+If you haven't read anything else or had a good look at the diagram from the threat-model page you may not be familiar with system qubes.
+Essentially different components of your computer are also isolated in various qubes.
 The default system qubes are:
 
 - sys-net - This is where the internet comes in since it is the only qube that is actually connected to the network device in your computer.

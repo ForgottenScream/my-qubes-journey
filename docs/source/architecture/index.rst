@@ -10,5 +10,5 @@ This section will look at the Qubes OS Architecture and how we want to shape it 
 
    overview
    threat-model
-   templates
    qube-roles
+   templates
