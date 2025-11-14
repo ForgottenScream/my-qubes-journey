@@ -5,7 +5,7 @@ Before any good project you have to plan. This includes researching about what y
 This section will look at the Qubes OS Architecture and how we want to shape it to our threat model as well as our needs. I will try to be generic but this is based on personal experience so expect opinionated views and choices.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Architecture Topics
 
    overview
