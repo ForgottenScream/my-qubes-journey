@@ -69,13 +69,10 @@ Man pages, StackOverflow, Qubes Forum, and official docs exist for a reason.
 Reading documentation — really reading it — is a skill.  
 And you’re practicing it right now.
 
-Disclaimer
-----------
+.. admonition:: Disclaimer
 
-I am not a tech guru who knows everything. I might know more than you (for now), but there are people far smarter than me who know more about every topic I discuss.
-
-So take everything here with a grain of salt.  
-Verify things.  
-Cross-check sources.  
-
-Qubes itself teaches you that—starting with verifying its ISO ;)
+    I am not a tech guru who knows everything. I might know more than you (for now), but there are people far smarter than me who know more about every topic I discuss.
+    So take everything here with a grain of salt.  
+    Verify things.  
+    Cross-check sources.  
+    Qubes itself teaches you that—starting with verifying its ISO ;)
