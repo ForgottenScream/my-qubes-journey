@@ -5,7 +5,7 @@ So you heard about this operating system called Qubes OS.
 Maybe you've dabbled in Linux and want to take the next step. Maybe someone sent you this link and you already have strong opinions about Qubes or Linux — which is fine, I won’t hold that against you.
 
 This documentation is written primarily for people in that first group: curious, motivated, but unsure where to start.
-That said, you may find yourself gradually migrating into the “target audience” without even realizing it.
+That said, if you are in that second group you may find yourself gradually migrating into the first group without even realizing it.
 
 Why I Wrote This
 ----------------
@@ -27,7 +27,7 @@ But Qubes OS adds a new layer of complexity on top of that. You might love it or
 Understanding Use Cases
 -----------------------
 
-One of the Qubes OS introduction pages talks about use cases. When I first read it, it went over my head. I didn’t care about use cases — I wanted *results*.
+One of the Qubes OS introduction pages talks about `use cases <https://doc.qubes-os.org/en/latest/user/how-to-guides/how-to-organize-your-qubes.html>`_ for organizing qubes. When I first read it, it went over my head. I didn’t care about use cases — I wanted *results*.
 
 Now I get it.
 
@@ -49,7 +49,7 @@ This entire project documents **my** approach to Qubes OS:
 - my mistakes,
 - my improvements over time.
 
-While I won’t explain **every** little detail — for obvious reasons — but I will show the majority of what I do so you can:
+While I won’t explain **every** little detail — for obvious reasons — I will show the majority of what I do so you can:
 
 - understand the reasoning,
 - replicate it **manually**,
