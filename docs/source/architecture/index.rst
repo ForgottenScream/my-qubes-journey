@@ -8,8 +8,7 @@ This section will look at the Qubes OS Architecture and how we want to shape it 
    :maxdepth: 2
    :caption: Architecture Topics
 
-
-    overview
-    threat-model
-    templates
-    qube-roles
+   overview
+   threat-model
+   templates
+   qube-roles
