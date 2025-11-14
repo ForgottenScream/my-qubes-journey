@@ -14,7 +14,7 @@ This has many use cases but remember to install the necessary software to make t
     Be nice to your HDD.
 
 List of Templates (Suggestion)
-==============================
+------------------------------
 This is in tune with what I use, so if your philosophy around software or distros (linux distributions) differ, then change it accordingly for your use case.
 
 - Fedora Template - For now we will use for system qubes such as (sys-net, sys-usb and sys-firewall)
