@@ -14,3 +14,4 @@ Or dive into it like I did and look after to fill in the gaps, up to you.
 
    intro
    architecture/index
+   installation/index
