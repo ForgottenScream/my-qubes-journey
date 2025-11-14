@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'my-qubes-journey'
+project = 'My Qubes Journey'
 copyright = '2025, ForgottenScream'
 author = 'ForgottenScream'
 release = '0.1'
