@@ -13,7 +13,11 @@ And it is funny because you have the same type of people on both sides of the co
 
 So to put this matter to bed and not have to discuss any further, here is a (clearly not biased) list of reasons **to** use Qubes OS and to **not** use Qubes OS.
 
-Use Qubes OS
-~~~~~~~~~~~~
-- Utlizes Xen-based virtualization to create isolated qubes. In other words - secure when talking about computer architecture.
+Why You Should Use Qubes OS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Qubes uses Xen-based virtualization to create isolated qubes. In other words - secure when talking about computer architecture.
+- It gives you the opportunity to organize your digital life since right now you probably use one or two devices for everything, in contrast to your physical life where you are able to isolate various aspects of your life.
 
+
+Why You Shouldn't Use Qubes OS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
