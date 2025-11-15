@@ -8,3 +8,4 @@ Now we have a basic understanding of Qubes OS we can move on to the installation
    :caption: Installation Topics
 
    preparation
+   installation
