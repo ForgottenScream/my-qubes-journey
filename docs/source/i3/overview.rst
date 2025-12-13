@@ -8,7 +8,8 @@ Happy days right? Well yes, but no. See your workflow with various qubes will st
 Don't get me wrong, I love Xfce as a desktop environment, it is so solid and stable with lots of amazing tools.
 But one must rise up, away from desktop environments and onwards to window managers.
 
-.. note::
+.. admonition:: Personal Opinion Time! (POT)
+
    Window managers are awesome but not necessary, you can skip this whole section and only apply the rest of the documentation, but you should use i3 :)
 
 In this section I will give you a step by step guide to getting i3 up and running, and the great thing is you will be starting in a much more straightforward point in time than I did.
