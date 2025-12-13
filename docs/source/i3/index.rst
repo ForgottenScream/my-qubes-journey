@@ -9,4 +9,5 @@ Many keybinds and configurations will be included here which you can save and ap
    :caption: i3 Topics
 
    overview
-   toggle-mic.rst
+   i3_installation
+   i3-extras/index
