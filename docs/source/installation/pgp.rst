@@ -50,7 +50,7 @@ Fedora has the `distribution-gpg-keys <https://github.com/xsuchy/distribution-gp
 Debian may already have in their keyring so you can fetch it with GPG:
 
 .. code-block:: bash
- 
+
    gpg2 --fetch-keys https://keys.qubes-os.org/keys/qubes-master-signing-key.asc
 
 You can also get it from a public keyserver:

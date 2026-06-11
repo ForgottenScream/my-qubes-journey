@@ -14,7 +14,9 @@ domain. That's perfect!
 
 But how can we adapt that to any application? Well if you run:
 
-``which qubes-i3-sensible-terminal``
+.. code-block:: bash
+
+    which qubes-i3-sensible-terminal
 
 You will find the location of the script, usually in /usr/bin, so use your
 favorite editor, open it and look at the code!
@@ -65,18 +67,22 @@ qubes-i3-run-app was my first choice as it follows suit with the other scripts.
 
 Make the file executable with chmod.
 
-``chmod +x qubes-i3-run-app``
+.. code-block:: bash
+
+    chmod +x qubes-i3-run-app
 
 Then amend your i3 config bindings:
 
-``bindsym (choose your keybind here) exec --no-startup-id qubes-i3-run-app
-<default-vm-name> <app_name>``
+.. code-block:: bash
+
+    bindsym (choose your keybind here) exec --no-startup-id qubes-i3-run-app <default-vm-name> <app_name>
 
 This will now open the application you want in the active qube and will fall
 back to the defined qube so you can maintain your habit of opening your main
 qube and application in one keybind.
 
 .. note::
+
    Review the code properly, I used qvm-run instead of qrexec due to its
    simplicity, but it is likely that qrexec is more secure so if you get that up
    and running open an issue in the repository! Thanks!
