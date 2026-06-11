@@ -69,7 +69,7 @@ it to just sys-net to avoid issues as sys-usb also uses said template - good to
 have isolation)
 
 Then execute the file in the template, this will create the NetworkManager
-connection file necessary to connect to your wifi network. Assuming you are
+connection file necessary to connect to your Wifi network. Assuming you are
 connecting to a standard network, this should work. You can always connect to
-the wifi and go to /etc/NetworkManager/system-connections to check out how the
-file should be.
+the Wifi network in the sys-net qube and go to /etc/NetworkManager/system-connections to
+check out how the file should be.
