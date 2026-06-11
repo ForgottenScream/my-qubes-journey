@@ -15,3 +15,4 @@ what we came up with and drew (hopefully you drew and wrote down notes, if not d
    :caption: Table of Contents:
 
    setup-qubes
+   extras/index
