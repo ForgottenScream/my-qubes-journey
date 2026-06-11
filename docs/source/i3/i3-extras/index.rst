@@ -11,3 +11,4 @@ just copy and paste.
    :caption: i3 Extra Topics
 
    toggle-mic.rst
+   qubes-i3-run-app.rst
