@@ -12,3 +12,4 @@ just copy and paste.
 
    toggle-mic.rst
    qubes-i3-run-app.rst
+   qubes-i3-file-manager.rst

@@ -1,5 +1,5 @@
-Use universal keybind for any Qube
-==================================
+Use universal keybind to run an application on any Qube
+=======================================================
 
 So you finished configuring i3 and you have all your keybinds (I hope) ready to
 open your favourite applications in your domains, but then you realize, they all
