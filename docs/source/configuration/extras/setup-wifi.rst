@@ -15,7 +15,21 @@ default sys-net qube that is not disposable.
 
     #!/usr/bin/env bash
     set -e
-    SSID='Put your wifi name here.'
+
+    read -s -p "Enter Wi-Fi network name: " SSID
+    echo
+    if [ -z "$SSID" ]; then
+    echo "No SSID entered; aborting."
+    exit 1
+    fi
+
+    read -s -p "Enter passphrase for Wi-Fi '$SSID': " WIFI_PSK
+    echo
+    if [ -z "$WIFI_PSK" ]; then
+    echo "No password entered; aborting."
+    exit 1
+    fi
+
     CONN_NAME="${SSID}.nmconnection"
     CFG_DIR="/rw/config/NM-system-connections"
     CFG_PATH="$CFG_DIR/$CONN_NAME"
@@ -27,13 +41,6 @@ default sys-net qube that is not disposable.
     # generate uuid once
 
     UUID=$(uuidgen)
-
-    read -s -p "Enter passphrase for Wi-Fi '$SSID': " WIFI_PSK
-    echo
-    if [ -z "$WIFI_PSK" ]; then
-    echo "No password entered; aborting."
-    exit 1
-    fi
 
     sudo tee "$CFG_PATH" > /dev/null <<EOF
     [connection]
