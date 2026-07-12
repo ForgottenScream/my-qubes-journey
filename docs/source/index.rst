@@ -17,3 +17,4 @@ Or dive into it like I did in :doc:`Installation <installation/index>` and look 
    installation/index
    configuration/index
    i3/index
+   salt/index

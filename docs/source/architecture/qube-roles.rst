@@ -9,7 +9,7 @@ Let's start with the main qube you will encounter when you install Qubes OS.
 Dom0 is your administrative domain, meaning you will interact with the rest of your system via this
 qube. In other words, while you may be opening different qubes for personal activities, work or
 gaming (yes, it is possible), you are using dom0 to access and use these qubes.
-If you look at the image from :doc:`Threat Model <architecture/threat-model>` you will see the
+If you look at the image from the Threat Model page, you will see the
 'AdminVM' which connects to some other qubes. That is dom0, which has a few rules and best practices
 that I will mention as we go along.
 
@@ -34,7 +34,7 @@ The default system qubes are:
 You will have these qubes running all the time.
 
 Main Qubes / AppVMs
-----------
+-------------------
 
 These qubes will be where you will live majority of the time, because ideally we don't want to spend
 all of our time maintaining this system, we want to use it!
