@@ -47,6 +47,9 @@ useful to have.
           - zathura
           - zathura-pdf-poppler
           - zenity
+          - pipewire
+          - pipewire-qubes
+          - wireplumber
 
     coms--download-signal-key:
       cmd.run:
@@ -104,3 +107,9 @@ applications needed.
 Now whenever you want to add another application, just add in the list at the
 top of the file. Set it and forget it once and take the config everywhere with
 you, just like I am doing now :D
+
+finally do this command in dom0:
+
+.. code-block:: bash
+
+   sudo qubesctl --targets=template-Coms state.sls coms saltenv=user
