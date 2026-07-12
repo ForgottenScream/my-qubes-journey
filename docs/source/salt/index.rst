@@ -13,4 +13,5 @@ the links in the next page so do have a look!
    :caption: Salt Topics
 
    references
+   introduction
    coms_qube

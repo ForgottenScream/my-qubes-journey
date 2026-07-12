@@ -7,3 +7,4 @@ process a lot simpler with great explanations so definitely check out the links
 as learning is always better than copying!
 
 * `Qubes Salt Beginner's Guide <https://forum.qubes-os.org/t/qubes-salt-beginners-guide/20126>`_.
+* `How to architect your Qubes OS with SaltStack <https://www.youtube.com/watch?v=Ib8kVTuajl4>`_.
