@@ -8,6 +8,9 @@ coms or name it based on the specific application you plan to use.
 In this guide we will install Signal and some other applications that I find
 useful to have.
 
+Requirement: debian-13-minimal (doesn't need to be minimal but needs to be
+debian)
+
 .. code-block:: salt
 
     {% if grains['id'] == 'dom0' %}
@@ -27,7 +30,7 @@ useful to have.
          - label: blue
        - features:
          - set:
-           - menu-items: mullvad-browser.desktop signal-desktop.desktop debian-uxterm.desktop thunar.desktop
+           - menu-items: mullvad-browser.desktop signal-desktop.desktop st.desktop thunar.desktop
        - require:
          - qvm: coms--create-nonfree-template
 
@@ -50,6 +53,24 @@ useful to have.
           - pipewire
           - pipewire-qubes
           - wireplumber
+          - stterm
+
+    coms--create-st-desktop-entry:
+      file.managed:
+        - name: /usr/share/applications/st.desktop
+        - contents: |
+            [Desktop Entry]
+            Version=1.0
+            Type=Application
+            Terminal=True
+            Name=st
+            GenericName=Simple Terminal
+            Comment=Suckless Terminal
+            Exec=st
+        - mode: '644'
+        - user: root
+        - group: root
+        - creates /usr/share/applications/st.desktop
 
     coms--download-signal-key:
       cmd.run:
